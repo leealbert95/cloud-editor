@@ -1,0 +1,36 @@
+@mixin box-sizing($property) {
+  -webkit-box-sizing: $property;
+  -moz-box-sizing: $property;
+  box-sizing: $property;
+}
+
+#signin {
+  padding-top: 30px;
+  background-image: url("https://s3.amazonaws.com/cloudhost-static/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  overflow-y: hidden;
+
+  form {
+    margin-top: 20px;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  .logo-container {
+    display: flex;
+    @include box-sizing('border-box');
+  }
+
+  .user-label {
+    font-weight: bold;
+  }
+
+  .title {
+    text-align: center;
+  }
+}

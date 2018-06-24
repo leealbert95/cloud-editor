@@ -1,0 +1,109 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: gray;
+  z-index: 99;
+  color: white;
+}
+#navbar li {
+  vertical-align: middle;
+  height: 100%;
+  width: 50px;
+  margin: auto;
+}
+#navbar a {
+  text-decoration: none;
+  margin: auto;
+}
+#navbar img {
+  margin-top: 15px;
+}
+#navbar .nav-item {
+  width: 60px;
+}
+#navbar .nav-list {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style-type: none;
+  margin: 0px;
+  width: 100%;
+  height: 60px;
+}
+#navbar .right-block {
+  text-align: left;
+  align-items: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  height: 60px;
+  line-height: 60px;
+}
+#navbar h2 {
+  flex-direction: row;
+  font-size: 30px;
+  margin: 15px;
+}
+@media only screen and (max-width: 576px) {
+  #navbar .right-block {
+    text-align: center;
+  }
+  #navbar .nav-list {
+    flex-direction: initial;
+    width: 300px;
+    margin: 0 auto;
+  }
+  #navbar a {
+    width: 50px;
+  }
+  #navbar .nav-item {
+    width: 100%;
+  }
+}
+
+#signin {
+  padding-top: 30px;
+  background-image: url("https://s3.amazonaws.com/cloudhost-static/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  overflow-y: hidden;
+}
+#signin form {
+  margin-top: 20px;
+}
+#signin img {
+  margin: 0 auto;
+}
+#signin .logo-container {
+  display: flex;
+  -webkit-box-sizing: "border-box";
+  -moz-box-sizing: "border-box";
+  box-sizing: "border-box";
+}
+#signin .user-label {
+  font-weight: bold;
+}
+#signin .title {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+#content {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.shift {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 576px) {
+  .shift {
+    margin-top: 120px;
+  }
+}

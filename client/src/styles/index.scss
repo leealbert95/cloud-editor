@@ -1,0 +1,24 @@
+@import 'navbar';
+@import 'home';
+@import 'signin';
+
+body {
+  margin: 0;
+}
+
+#content {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.shift {
+  margin-top: 60px;
+}
+
+
+@media only screen and (max-width: 576px) {
+  .shift {
+    margin-top: 120px;
+  }
+}
+

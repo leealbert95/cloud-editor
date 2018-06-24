@@ -17,28 +17,32 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > Cloud Office
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > The most open source file editing platform ever!
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > Tired of paying for Microsoft Office? Too hipster to use Google Docs? No worries,
+  Cloud Office is here to take care of all of your text editing needs!
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > Cloud Office is for those people who want to do their text editing business without dealing with Microsoft's high 
+  fees for their package, and also not under the prying eyes of Google. 
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > Write, save, and download files - all on the cloud! Free cloud storage, and easy access to your documents
+  no matter where you travel in the world!
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > "We care about quality" - Albert Lee, CEO and CTO.
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > "Oh my god! This editor is a game changer! Now I have my own private, free space to store my files.
+  This is a brilliant idea!" - Kent Wang.
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
